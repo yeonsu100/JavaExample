@@ -11,6 +11,6 @@ Hello~ Aloha~
 * Oliver
 * Lily
 
-[study] (http://14.63.164.99 "move to study page..")
+[study](http://14.63.164.99 "move to study page..")
 
 https://heropy.blog/2017/09/30/markdown/
