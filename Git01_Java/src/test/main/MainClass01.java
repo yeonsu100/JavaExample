@@ -7,5 +7,6 @@ public class MainClass01 {
 		System.out.println("This is lab1 branch");
 		System.out.println("This is lab1 branch!!");
 		System.out.println("say hello at lab1");
+		System.out.println("Coding at lab1...");
 	}
 }
