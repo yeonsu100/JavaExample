@@ -1,4 +1,4 @@
-package test.main;
+package step2_02_operator;
 
 public class OpEx03_answer {
 	public static void main(String[] args) {

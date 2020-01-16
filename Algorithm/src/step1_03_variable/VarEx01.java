@@ -1,4 +1,4 @@
-package test.main;
+package step1_03_variable;
 
 // 자료형 (데이터 타입)
 /*

@@ -1,4 +1,4 @@
-package test.main;
+package step1_01_print;
 
 public class PrintEx02 {
 	public static void main(String[] args) {

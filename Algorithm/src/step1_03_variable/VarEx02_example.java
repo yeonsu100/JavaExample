@@ -1,4 +1,4 @@
-package test.main;
+package step1_03_variable;
 
 public class VarEx02_example {
 	public static void main(String[] args) {
