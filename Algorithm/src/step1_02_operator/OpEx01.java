@@ -1,4 +1,4 @@
-package step2_02_operator;
+package step1_02_operator;
 
 public class OpEx01 {
 	public static void main(String[] args) {
