@@ -25,7 +25,7 @@ public class OpEx08_example {
 		// 문제 2) 키가 200cm이상이거나 몸무게가 200kg 이상이면 입장(true)
 		int height1=199;
 		int weight1=199;
-		boolean enter1=(height1>=200)&&(weight1>=200);
+		boolean enter1=(height1>=200)||(weight1>=200);
 		System.out.println("2. The answer of 1 is "+enter1);
 		
 		int height2=200;
