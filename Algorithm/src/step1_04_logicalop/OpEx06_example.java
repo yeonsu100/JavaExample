@@ -1,4 +1,4 @@
-package step1_03_variable;
+package step1_04_logicalop;
 
 public class OpEx06_example {
 	public static void main(String[] args) {
