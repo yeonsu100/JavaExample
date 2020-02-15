@@ -14,6 +14,7 @@ package step1_10_While;
  * 		증감식;
  * 	} 
  */
+
 public class WhileEx01 {
 	public static void main(String[] args) {
 		// ex) 1~5 출력
