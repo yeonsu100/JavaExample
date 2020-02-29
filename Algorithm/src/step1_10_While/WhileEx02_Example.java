@@ -1,6 +1,7 @@
 package step1_10_While;
 
-// 반복문 기본문제 (1단계) 
+
+//반복문 기본문제 (1단계) 
 public class WhileEx02_Example {
 	public static void main(String[] args) {
 		// 문제 1) 1~10 반복하여 5~9 출
