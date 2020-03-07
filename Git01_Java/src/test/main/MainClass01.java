@@ -9,5 +9,6 @@ public class MainClass01 {
 		System.out.println("master branch hello~");
 		System.out.println("say hello at lab1");
 		System.out.println("Say good bye to master branch");
+		System.out.println("Coding at lab1...");
 	}
 }
