@@ -1,4 +1,5 @@
 package step1_10_While;
+
 /*
  * [ 반복문 (while) ]
  * 
