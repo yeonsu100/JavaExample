@@ -11,7 +11,6 @@ public class DiceGame {
 	public static void main(String[] args) {
 		boolean start=false;
 		Scanner scanner=new Scanner(System.in);
-<<<<<<< HEAD
 		
 		System.out.println("***** Dice Game *****");
 		System.out.println("Set a player 1's name : ");
@@ -78,7 +77,5 @@ public class DiceGame {
 		}else {
 			return false;
 		}
-=======
->>>>>>> branch 'ChloeAtHome' of https://github.com/yeonsu100/JavaExample.git
 	}
 }
