@@ -23,7 +23,6 @@ public class Lottery {
 		System.out.println(Arrays.toString(lotto));
 	}
 	
-<<<<<<< HEAD
 	public static void main2(String[] args) {
 		int[] lotto=new int[6];
 		int cnt=0;
@@ -59,7 +58,5 @@ public class Lottery {
 		}
 		System.out.println(Arrays.toString(lotto));
 	}
-=======
 
->>>>>>> branch 'ChloeAtHome' of https://github.com/yeonsu100/JavaExample.git
 }
