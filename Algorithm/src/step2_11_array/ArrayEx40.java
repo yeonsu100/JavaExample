@@ -66,21 +66,31 @@ public class ArrayEx40 {
 		System.out.print("Enter a number 2 for swapping");
 		int num2=scan.nextInt();
 		
-		idx1=0;
-		idx2=0;
+		int idx1_i=0, idx1_j=0;
+		int idx2_i=0, idx2_j=0;
 		
 		for(int i=0; i<3; i++) {
 			for(int j=0; j<3; j++) {
 				if(arr[i][j]==num1) {
-					idx1=i;
-					idx2=j;
-				}else {
-					idx2=i;
-					idx2=j;
+					idx1_i=i;
+					idx2_j=j;
+				}
+				if(arr[i][j]==num2) {
+					idx2_i=i;
+					idx2_j=j;
 				}
 			}
 		}
-		System.out.print("Index 1 : "+idx1);
-		System.out.print("Index 2 : "+idx2);
+		
+		int temp=arr[idx1_i][idx1_j];
+		arr[idx1_i][idx1_j]=arr[idx2_i][idx2_j];
+		arr[idx2_i][idx2_j]=temp;
+		
+		for(int i=0; i<3; i++) {
+			for(int j=0; j<3; j++) {
+				System.out.print(arr[i][j]+" ");
+			}
+			System.out.println();
+		}
 	}
 }
