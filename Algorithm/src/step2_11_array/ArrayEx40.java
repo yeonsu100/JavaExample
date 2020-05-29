@@ -23,5 +23,25 @@ public class ArrayEx40 {
 		int idx2=scan.nextInt();
 		
 		System.out.println(arr[idx1][idx2]);
+		
+		// Q2) 값을 입력받아 인덱스 2개 출력
+		System.out.print("Enter a value : ");
+		int value=scan.nextInt();
+		
+		idx1=0;
+		idx2=0;
+		
+		for(int i=0; i<3; i++) {
+			for(int j=0; j<3; j++) {
+				if(arr[i][j]==value) {
+					idx1=i;
+					idx2=j;
+				}
+			}
+		}
+		
+		System.out.print("Index 1 : "+idx1);
+		System.out.print("Index 2 : "+idx2);
+		
 	}
 }
