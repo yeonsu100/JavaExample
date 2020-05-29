@@ -60,5 +60,27 @@ public class ArrayEx40 {
 		System.out.print("Maximum index 1 : "+idx1);
 		System.out.print("Second one (index 2) : "+idx2);
 		
+		// Q4) 입력받은 2개 값 교체
+		System.out.print("Enter a number 1 for swapping");
+		int num1=scan.nextInt();
+		System.out.print("Enter a number 2 for swapping");
+		int num2=scan.nextInt();
+		
+		idx1=0;
+		idx2=0;
+		
+		for(int i=0; i<3; i++) {
+			for(int j=0; j<3; j++) {
+				if(arr[i][j]==num1) {
+					idx1=i;
+					idx2=j;
+				}else {
+					idx2=i;
+					idx2=j;
+				}
+			}
+		}
+		System.out.print("Index 1 : "+idx1);
+		System.out.print("Index 2 : "+idx2);
 	}
 }
