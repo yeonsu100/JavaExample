@@ -1,0 +1,27 @@
+package step2_11_array;
+
+import java.util.Scanner;
+
+// 2차원 배열 기본문제 (2단계) 
+public class ArrayEx40 {
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		int[][] arr=new int[3][3];
+		
+		int k=1;
+		for(int i=0; i<3; i++) {
+			for(int j=0; j<3; j++) {
+				arr[i][j]=10*k;
+				k+=1;
+			}
+		}
+		
+		// Q1) 인덱스 2개를 입력받아 값 출력
+		System.out.print("Enter a number for index 1 : ");
+		int idx1=scan.nextInt();
+		System.out.print("Enter a number for index 2 : ");
+		int idx2=scan.nextInt();
+		
+		System.out.println(arr[idx1][idx2]);
+	}
+}
