@@ -43,5 +43,22 @@ public class ArrayEx40 {
 		System.out.print("Index 1 : "+idx1);
 		System.out.print("Index 2 : "+idx2);
 		
+		// Q3) 가장 큰 값의 인덱스 2개 출력
+		int maxIdx=arr[0][0];
+		idx1=0;
+		idx2=0;
+		
+		for(int i=0; i<3; i++) {
+			for(int j=0; j<3; j++) {
+				if(maxIdx<arr[i][j]) {
+					maxIdx=arr[i][j];
+					idx1=i;
+					idx2=j;
+				}
+			}
+		}
+		System.out.print("Maximum index 1 : "+idx1);
+		System.out.print("Second one (index 2) : "+idx2);
+		
 	}
 }
