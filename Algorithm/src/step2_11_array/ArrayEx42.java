@@ -70,5 +70,38 @@ public class ArrayEx42 {
 		}
 		System.out.println("Minimum : "+apt[idx1][idx2]);
 	
+		// Q4) 입력한 2개 세대의 관리비 교체 
+		System.out.print("Enter an address code 1 : ");
+		int code1=scan.nextInt();
+		System.out.println("Enter an address code 2 : ");
+		int code2=scan.nextInt();
+		
+		int idx1_i=0;
+		int idx1_j=0;
+		int idx2_i=0;
+		int idx2_j=0;
+		
+		for(int i=0; i<3; i++) {
+			for(int j=0; j<3; j++) {
+				if(apt[i][j]==code1) {
+					idx1_i=i;
+					idx1_j=j;
+				}
+				if(apt[i][j]==code2) {
+					idx2_i=i;
+					idx2_j=j;
+				}
+			}
+		}
+		
+		int temp=hoa[idx1_i][idx1_j];
+		hoa[idx1_i][idx1_j]=hoa[idx2_i][idx2_j];
+		hoa[idx2_i][idx2_j]=temp;
+		
+		for(int i=0; i<3; i++) {
+			for(int j=0; j<3; j++) {
+				System.out.println(hoa[i][j]+" ");
+			}
+		}
 	}
 }
