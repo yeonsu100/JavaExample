@@ -38,5 +38,37 @@ public class ArrayEx42 {
 			}
 		}
 		
+		// Q3) 관리비가 가장 많이 / 적게 나온 집 각각 출력
+		int idx1=0;
+		int idx2=0;
+		
+		// 가장 많이 나온집
+		int maxHoa=hoa[0][0];
+		
+		for(int i=0; i<3; i++) {
+			for(int j=0; j<3; j++) {
+				if(maxHoa<hoa[i][j]) {
+					maxHoa=hoa[i][j];
+					idx1=i;
+					idx2=j;
+				}
+			}
+		}
+		System.out.println("Maximum : "+apt[idx1][idx2]);
+		
+		// 가장 적게 나온집
+		int minHoa=hoa[0][0];
+		
+		for(int i=0; i<3; i++) {
+			for(int j=0; j<3; j++) {
+				if(minHoa>hoa[i][j]) {
+					minHoa=hoa[i][j];
+					idx1=i;
+					idx2=j;
+				}
+			}
+		}
+		System.out.println("Minimum : "+apt[idx1][idx2]);
+	
 	}
 }
