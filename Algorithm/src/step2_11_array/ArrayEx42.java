@@ -1,4 +1,7 @@
 package step2_11_array;
+
+import java.util.Scanner;
+
 // 관리비 
 public class ArrayEx42 {
 	public static void main(String[] args) {
@@ -21,5 +24,19 @@ public class ArrayEx42 {
 			}
 			System.out.println("The sum of "+(i+1)+" floor : "+sum);
 		}
+		
+		// Q2) 입력한 세대 (호수)의 관리비 출력
+		Scanner scan=new Scanner(System.in);
+		System.out.println("Enter a code : ");
+		int code=scan.nextInt();
+		
+		for(int i=0; i<3; i++) {
+			for(int j=0; j<3; j++) {
+				if(apt[i][j]==code) {
+					System.out.println(hoa[i][j]);
+				}
+			}
+		}
+		
 	}
 }
