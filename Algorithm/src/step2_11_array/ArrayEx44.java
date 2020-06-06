@@ -16,7 +16,7 @@ public class ArrayEx44 {
 		
 		while(true) {
 			System.out.println("*** Account of Admin ***");
-			System.out.println("[1] Category");
+			System.out.println("[1] Category Management");
 			System.out.println("[2] Item Management");
 			System.out.println("[3] Print the all items");
 			
@@ -24,17 +24,25 @@ public class ArrayEx44 {
 			int sel=scan.nextInt();
 			
 			if(sel==1) {
-				System.out.print("Select a category");
+				System.out.print("Enter a category for insert");
 				String category=scan.next();
 				items[itemCount][0]=category;
 				itemCount+=1;
-			}else if(sel==2) {
+			}
+			else if(sel==2) {
 				for(int i=0; i<itemCount; i++) {
 					System.out.println("["+i+"]"+items[i][0]);
 				}
-				System.out.println("Enter an item for insert");
+				System.out.print("Select a category");
+				int choice=scan.nextInt();
+				
+				System.out.print("Enter an item for insert");
 				String item=scan.next();
-			}else if(sel==3) {
+				
+				items[choice][1]+=item;
+				items[choice][1]+=" / ";
+			}
+			else if(sel==3) {
 				for(int i=0; i<itemCount; i++) {
 					System.out.println(items[i][0]+" | "+items[i][1]);
 				}
