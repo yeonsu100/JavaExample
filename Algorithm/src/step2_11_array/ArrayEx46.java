@@ -32,10 +32,10 @@ public class ArrayEx46 {
 				}
 			}
 			
-			// 당첨 복권이 1번 나왔을 
+			// 당첨 복권이 1번 나왔을 때  
 			if(check==1 && win==0) {
 				win=1;
-			}else if(check==1 && win==1){	// 당첨 복권이 있는데 또 당첨된 경
+			}else if(check==1 && win==1){	// 당첨 복권이 있는데 또 당첨된 경우  
 				i-=1;
 			}else if(check==-1 && win==0) {	// 한번도 당첨되지 않은 경우 
 				i-=1;
