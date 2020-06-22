@@ -43,5 +43,8 @@ public class ArrayEx48 {
 			characters[maxNum]=temp;
 		}
 		
+		for(int i=0; i<charCount; i++) {
+			System.out.println(characters[i][0]+" "+characters[i][1]);
+		}
 	}
 }
