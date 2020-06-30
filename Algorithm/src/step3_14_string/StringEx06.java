@@ -12,9 +12,9 @@ public class StringEx06 {
 		
 		// Print a sex
 		char key=id_num.charAt(7);
-		if(key=='1') {
+		if(key=='1'||key=='3') {
 			System.out.println("Male");
-		}else if(key=='2') {
+		}else if(key=='2'||key=='4') {
 			System.out.println("Female");
 		}
 	}
