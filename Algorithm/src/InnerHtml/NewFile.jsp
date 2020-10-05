@@ -25,6 +25,7 @@
 
 </head>
 <body>
-	
+	<button onclick="commentfor()">Comment</button>
+	<div id="mylocation"></div>
 </body>
 </html>
