@@ -1,0 +1,26 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <title>output tag</title> 
+        <style> 
+            body { 
+                text-align:center; 
+            } 
+            h1 { 
+                color:red; 
+            } 
+        </style> 
+    </head> 
+    <body> 
+        <h1>output tag prac</h1> 
+        <h2><output> Tag</h2> 
+        <form oninput = "sumresult.value = parseInt(A.value)  
+                + parseInt(B.value) + parseInt(C.value)"> 
+            <input type = "number" name = "A" value = "50" /> + 
+            <input type = "range" name = "B" value = "0" /> + 
+            <input type = "number" name = "C" value = "30" /> 
+            <br> 
+            Result: <output name = "sumresult"></output> 
+        </form> 
+    </body> 
+</html>   
