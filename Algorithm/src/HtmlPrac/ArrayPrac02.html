@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Array Practice 02</title>
+</head>
+<body>
+	<h1>array prac</h1>
+	<input type="text" id="msg" placeholder="Input To do message"/>
+	<button onclick="save()"> SAVE </button>
+	<button onclick="show()"> SHOW </button>
+	<p id="console"></p>
+	<script type="text/javascript">
+		var msgs=[];
+		
+		function save(){
+			var line=document.querySelector("#msg").value;
+			msg.push(line);
+			alert("Saved Successfully");
+			document.querySelector("#msg").value=""; 	// clear 			
+		}
+		
+		function show(){
+			var todo="";
+			for(var i=0; i<msg.length; i++){
+				var line=msgs[i];
+				console.log(line);
+				todo=todo+line;
+			}
+			document.querySelector("#console").innerText=todo;
+		}
+	
+	</script>
+</body>
+</html>
